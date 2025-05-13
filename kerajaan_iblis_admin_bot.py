@@ -333,7 +333,7 @@ def main():
     autosave_timer = Timer(AUTOSAVE_INTERVAL, autosave_periodic)
     autosave_timer.start()
 
-    TOKEN = "7934761014:AAEv-fv0KoyUu7mCcak3Jdd5Pb_F3w5zH6Q"  # Replace with your bot token
+    TOKEN = "7519990155:AAF-qLMIA2t-ctC7wubAuh_lD_K1PQjudbE"  # Replace with your bot token
     updater = Updater(TOKEN, use_context=True)
     dispatcher = updater.dispatcher
 
